@@ -1,9 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2023-06-03T05:04:49.332Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" version="21.3.7" etag="BM2p9uwNqzJtlm8xGF0s" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-03T05:17:38.364Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="LHHVX5kVKCTS8WKB6-oI" version="21.3.7" type="github">
   <diagram name="第 1 页" id="kXesfWX5XI_959Thf6u9">
-    <mxGraphModel>
+    <mxGraphModel dx="939" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pYRtsMFCKtRV7iMBoChb-1" value="基于ZYNQ的数字图像识别" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="250" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pYRtsMFCKtRV7iMBoChb-3" value="项目目标" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="260" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pYRtsMFCKtRV7iMBoChb-7" value="PC端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="180" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pYRtsMFCKtRV7iMBoChb-8" value="MCU" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="230" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pYRtsMFCKtRV7iMBoChb-9" value="ZYNQ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="300" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pYRtsMFCKtRV7iMBoChb-10" value="识别内容" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="370" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pYRtsMFCKtRV7iMBoChb-11" value="linux训练数据集得出训练成果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="150" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pYRtsMFCKtRV7iMBoChb-12" value="使用USB摄像头验证训练成果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="190" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pYRtsMFCKtRV7iMBoChb-13" value="使用F1或F4,应用神经网络？" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="230" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pYRtsMFCKtRV7iMBoChb-14" value="纯FPGA实现" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="280" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pYRtsMFCKtRV7iMBoChb-15" value="ZYNQ的PS与PL端综合实现" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="320" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pYRtsMFCKtRV7iMBoChb-16" value="初阶" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="370" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pYRtsMFCKtRV7iMBoChb-17" value="进阶" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="410" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pYRtsMFCKtRV7iMBoChb-18" value="...." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="450" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pYRtsMFCKtRV7iMBoChb-19" value="纯CNN数字识别" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="370" width="160" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
